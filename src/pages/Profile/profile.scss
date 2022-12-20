@@ -1,0 +1,69 @@
+
+.editProfile{
+.profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 156px;
+    
+
+
+    .profile__field {
+        padding: 20px 0px;	
+        position: relative;	
+        width: 50%;
+
+        .profile__icon {
+            position: absolute;
+            top: 30px;
+            color: $primaryColor;
+        }
+        
+        .profile__input {
+            border: none;
+            border-bottom: 2px solid #D1D1D4;
+            background: none;
+            padding: 10px;
+            padding-left: 24px;
+            font-weight: 700;
+            width: 75%;
+            transition: .2s;
+        }
+    }
+    
+
+
+    .profile__submit {
+        background: #fff;
+        font-size: 14px;
+        margin-top: 30px;
+        padding: 16px 20px;
+        border-radius: 26px;
+        border: 1px solid #D4D3E8;
+        text-transform: uppercase;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+        color:  $primaryColor;
+        box-shadow: 0px 2px 2px $primaryColor;
+        cursor: pointer;
+        transition: .2s;
+    }
+    
+    .profile__submit:active,
+    .profile__submit:focus,
+    .profile__submit:hover {
+        border-color:  $primaryColor;
+        outline: none;
+    }
+    
+}
+
+}
+
+.red {
+    background-color: red;
+}

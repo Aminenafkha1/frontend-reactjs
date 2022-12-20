@@ -1,0 +1,44 @@
+
+
+// File: App.scss
+// This file contains all styles related to the site/application.
+@import "./assets/scss/fonts";
+@import "./assets/scss/mixins";
+@import "./assets/scss/variables";
+@import "./assets/scss/functions";
+
+// @import './assets/scss/utilities/base';
+/* ----------------------------------- */
+@import './layouts/header/header.scss';
+@import './layouts/Sidebar/sidebar.scss';
+
+@import './pages/Auth/register/register.scss';
+@import './pages/Auth/login/login.scss';
+@import './pages//Quizzes/quizzes.scss';
+
+@import './layouts/UserLayout/userlayout.scss';
+@import './pages/Profile/profile.scss';
+
+@import './components/Pagination/pagination.scss';
+@import './components/Resultquiz/Resultquiz.scss';
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+
+body {
+  background:  #D9D9D9 !important;
+}

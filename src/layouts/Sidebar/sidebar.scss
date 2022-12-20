@@ -1,0 +1,19 @@
+.siderBar {
+  background: #ffffff;
+  border-radius: 10px;
+  width: 5.3rem;
+  margin-left: 1.8rem;
+
+  .sidebarItems {
+    .list-items {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 1.68rem;
+      .sidebarItem {
+        color: #1f8af4;
+        font-size: 38px;
+      }
+    }
+  }
+}
